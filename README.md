@@ -102,7 +102,7 @@ Then run EM2NA
 ```
 /path/to/EM2NA/EM2NA.sh emd_0586.map output --seq 6O1D.fasta -g 0
 ```
-The output model is saved in directory *output*, and named *output.cif*.
+The output model is saved in directory `output`, and named `output.cif`.
 
 #### Post refinement
 It is recommended to use third-party programs to further refine the model-map fit and model geometries, e.g. using **phenix.real_space_refine**
