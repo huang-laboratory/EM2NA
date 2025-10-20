@@ -55,7 +55,7 @@ EM2NA_home="/path/to/EM2NA"
 ```
 
 #### 5. Compile python package in Fortran
-In addition to online packages, the interpolation program **interp3d.f90** should be built as a python package **interp3d** using `f2py`. Users can either build interp3d from source or use our precompiled interp3d.
+In addition to online packages, the interpolation program `interp3d.f90` should be built as a python package `interp3d` using `f2py`. Users can either build interp3d from source or use our precompiled interp3d.
 
 ##### 5.1 Build interp3d from source
 Check where your gfortran is and compile using `f2py` (`f2py` will be available once you have installed numpy in `em2na` env)
