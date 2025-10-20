@@ -81,14 +81,14 @@ Running EM2NA is very straight forward with one command like
 ```
 /path/to/EM2NA/EM2NA.sh MAP.mrc OUTPUT_DIR \
     [-g GPUID] \ # GPUID, default is 0
-    [--seq SEQ.fa] \ # optinal
+    [--seq SEQ.fa] \ # optional
     [--natype NA_TYPE] # DNA or RNA or AUTO
 ```
 - Cryo-EM density map and output directory is **required**.
 - Sequence(s) are **optional**.
 - Input Fasta file SEQ.fa could include multiple (>= 1) sequences.
 - If you launch > 1 modeling jobs, the output directory **MUST** be set differently.
-- 
+
 The output model (named **output.cif**) will be saved in the specified output directory.
 
 #### 1. Modeling with target sequence(s)
